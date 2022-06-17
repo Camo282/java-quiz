@@ -1,0 +1,18 @@
+/*Add comments to css*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.timer {
+    color: blue;
+    text-align: right;
+}
+
+.score {
+    color: purple;
+    ;
+}
+
+/*Will main need to be centered onto the page; figure out if its just padding, etc*/
