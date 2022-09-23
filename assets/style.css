@@ -1,0 +1,31 @@
+body{
+    background: lightskyblue;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    width: 80vw;
+    max-width: 80%;
+    margin:auto;
+    background-color: aliceblue;
+    height: 70vh;
+    box-shadow: 0 0 5px 4px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    text-align: center;
+}
+
+button{
+    margin:4px;
+    display: inline-flex;
+    flex-wrap: row;
+    position:bottom;
+}
+
+.timer{
+    display: flex;
+    justify-content: right;
+    padding: 4px 8px 0 0;
+}

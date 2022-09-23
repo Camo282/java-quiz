@@ -1,14 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets\style.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>JavaScript Quiz</title>
+  <link rel="stylesheet" href="assets\style.css">
 </head>
+
 <body>
+    <header>
+        <h1 class="page-title">JavaScript Quiz</h1>
+
+        <main class="container">
+            <h3 id="countDown" class="timer">00:60</h3>
+            <div></div>
+            <div id="quiz"></div>
+            <p>Click the button below to start your quiz!</p>
+        <!-- <button class="btn" id="startButton">Start</button> -->
+        <!--add start button-->
+        <div class="buttons">
+            <button class="btn" id="startButton">Start Quiz</button>
+            <!--add view high score button-->
+            <button id="highScore"><a href="assets\highscore.html">High Score</a></button>
+            <!--make this a seperate HTML page and link-->
+            <button id="submit">Get Results</button>
+            <div id="results"></div>
+        </div>
+
+        </main>
+        
+    </header>
+
     
-    <script src="script.js"></script>
+
+    
+    <footer>
+        Created by John Sheridan
+    </footer>
+
+  <script src="assets\script.js"></script>
 </body>
+
 </html>
